@@ -1,0 +1,43 @@
+#title {
+    text-align: center;
+    background-color: blue;
+    margin: 0;
+    padding: 35px;
+    color:rgb(200, 255, 0)
+} 
+
+body {
+    margin: 0;
+}
+
+#explain {
+    text-align: center;
+    background-color: rgb(255, 38, 0);
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+#optionsBox{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 640px;
+height: 490px;
+margin: 35px auto;
+
+}
+
+.box{
+    background: rgb(228, 1, 1);
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;    
+    
+}
+
+.animationActive{
+    background: yellow;
+}

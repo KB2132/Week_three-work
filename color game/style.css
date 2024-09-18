@@ -1,0 +1,13 @@
+#optionsContainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 480px;
+    height: 330px;
+}
+
+.box {
+    background: red;
+    height: 150px;
+    width: 150px;
+}

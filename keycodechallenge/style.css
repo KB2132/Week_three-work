@@ -1,0 +1,30 @@
+#Intro {
+   text-align: center;
+   background-color: blue;
+   margin: 0;
+   padding: 12px;
+   color:red
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+p{
+    text-align: center;
+    font-weight: 900;
+}
+
+body{
+    margin: 0;
+}
+
+/*! Use these as a refrence if you are ever not sure on stuff. thx john :) 
+
+/*? Padding: is the space between the content and the edge of the element.
+
+/*? Margin: The space between one element and another element.
+
+/*? Justify-content: this is a flex property, it can only be used with flex box and it allows your stuff to be alligned horizontally.

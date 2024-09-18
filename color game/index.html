@@ -1,0 +1,43 @@
+<!-- !this is the code that tells the server what to look for... DO NOT CHANGE THIS -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ?This is what the code looks for and displays what is inside Look at Live server for refrence -->    
+
+    <header>
+        <h1>Guess the color</h1>
+        <h2 id="colorToGuess">RGB(0,0,0)</h2>
+    </header>
+
+    <!-- This allows us to see the button and the score -->
+
+    <div>
+        <button id="newColBtn">New color</button>
+        <p id="correctMessage"></p>
+        <p>Score:<span id="score">0</span> </p>
+    </div>
+
+<!-- Div stack on each other by default -->
+
+    <div id="optionsContainer">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+
+
+  <script src="./code.js"></script>  <!-- this is the code that tells the HTML to look at what we are codeing -->
+</body>
+</html>
